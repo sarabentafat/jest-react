@@ -1,0 +1,22 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarabentafat/jest-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarabentafat/jest-react/issues"
+  },
+  "homepage": "https://github.com/sarabentafat/jest-react#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}

@@ -1,0 +1,25 @@
+> npm i jest --save-dev 
+--save-dev for developement ,the app doesnt need it to work
+change   to jest 
+ "scripts": {
+    "test": "jest"
+  },
+  Tdd => test driven developement
+    "scripts": {
+    "test": "jest --watchAll" ==> itslike nodemon
+  },
+Test(name,function ,timeout)
+it(name,function ,timeout)
+############################################
+JEST GLOBAL METHODS
+reduce
+Describe(name,fn)
+f => to onyly focus in the failed tests
+JSDOc
+describe.only
+test.only
+test.skip
+beforeAll(fn,timeout)
+beforeEach(fn,timeout)
+############################
+JEST MATCHERS
