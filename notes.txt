@@ -23,3 +23,34 @@ beforeAll(fn,timeout)
 beforeEach(fn,timeout)
 ############################
 JEST MATCHERS
+//toBe(false)==> toBeFalsy()
+//not.toBeTruthy()
+//toBeGreaterThen ,toBelessthen ,toBeEqual
+//toBeUndefined()
+//toMatch() -- string
+//toHaveProperty() -- key and valye optional toHaveProperty("age",38)
+ to create matchers 
+ expect.anything()==> anything but nul + Undefined
+ expect.any  
+ ##################################
+ CODE COVERAGE
+   "jest": {
+    "collectCoverage":true //means when we do a normal coverage ,jest will collext a coverage
+      "coverageReporters":[
+      "html"
+    ]
+    //to give aname and path
+       "coverageDirectory":"reports"
+  
+  }
+  ## ##########################"
+  mock functions
+  to test the behavior
+      expect(mocker).toHaveBeenCalled()
+    expect(mocker).toHaveBeenCalledTimes(1);
+    expect(mocker).toHaveBeenCalledWith('sat');
+    expect(mocker).toHaveBeenLastCalledWith("sat");
+
+###########################
+JEST OPTIONS
+jest ignores node module by default

@@ -18,5 +18,15 @@
   "homepage": "https://github.com/sarabentafat/jest-react#readme",
   "devDependencies": {
     "jest": "^29.6.4"
+  },
+  "jest": {
+    "//":"COLLECT COVERAGE OPTION ",
+    "collectCoverage":true,
+    "coverageReporters":[
+      "html"
+    ],
+    "coverageDirectory":"reports",
+    "collectCoverageFrom":["**/.{js,jsx,ts}"],
+    "coveragePathIgnorePatterns":["/node_modules","/build/"]
   }
 }
